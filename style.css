@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 sept. 2015, 22:36:13
+    Author     : mac
+*/
+div{
+   position: absolute; 
+   text-align: center;
+    
+    
+}
+.right {
+    float: right;
+    width: 300px;
+    border:3px solid #8AC007;
+    padding: 10px;
+}
+body {
+			background: #000;
+		}
+		#conteneur {
+			width: 400px;
+			height: 300px;
+			border: 1px solid #333;
+			margin: 0 auto;
+			background: #FFF;
+			text-align: center;
+			
+		}
+		h1 {
+			text-align: center;
+			font-variant: small-caps;
+			color: #FFF;
+		}
+title {
+	
+	background: #FFF;
+	
+}
+canvas { 
+    background:url(http://i.imgur.com/PWSOy.jpg) 
+}
+#game-over {
+  display: none;
+  text-align: center;
+  padding-top: 92px;
+  z-index: 1;
+  visibility: hidden;
+  width: 600px;
+  height: 360px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+}
+.jCProgress {
+     position: absolute;
+     z-index: 9999999;
+     /*  margin-top:-15px; /* offset from the center */
+}
+
+.jCProgress > div.percent {
+     font: 18px/27px 'BebasRegular', Arial, sans-serif;
+     color:#ebebeb;
+     text-shadow: 1px 1px 1px #1f1f1f;
+
+     position:absolute;
+     margin-top:40px;
+     margin-left:22px;
+     text-align: center;
+     width:60px;
+}
