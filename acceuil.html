@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="style.css"></script>
+        <script src="jquery-1.11.3.js"></script>
+        <script src="jquery.js"></script>
+         <script type="text/javascript">
+             
+      function RedirectionJavascript(){
+        document.location.href="index.html";
+      }
+   </script>
+    </head>
+    <body onLoad="setTimeout('RedirectionJavascript()', 10000)">
+     <div id="progress">
+        <div id="percent">Downloading: <span id="p"></span></div>
+        <progress id="progress-bar" value="0"></progress>
+      </div>
+  </body>
+  
+</html>
